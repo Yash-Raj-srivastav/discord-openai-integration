@@ -19,14 +19,22 @@ Before you begin, ensure you have met the following requirements:
 ## Installation
 
 1. Clone the repository:
-```git clone https://github.com/yourusername/discord-bot-openai.git```
-2. Navigate to the project directory:
-```cd discord-bot-openai```
-3. Open the src/main/resources/application.properties file and replace the placeholders with your Discord bot token and OpenAI API key.
-4. Build the project using Maven:
-```mvn clean package```
-Run the bot:
-```java -jar target/discord-bot-1.0-SNAPSHOT.jar```
+```
+git clone https://github.com/yourusername/discord-bot-openai.git
+```
+3. Navigate to the project directory:
+```
+cd discord-bot-openai
+```
+5. Open the src/main/resources/application.properties file and replace the placeholders with your Discord bot token and OpenAI API key.
+6. Build the project using Maven:
+```
+mvn clean package
+```
+7. Run the bot:
+```
+java -jar target/discord-bot-1.0-SNAPSHOT.jar
+```
 
 ## Usage
 
